@@ -7,9 +7,9 @@ html {
 
 body {
   display: flex;
+  justify-content: center;
   /* The image used */
   background-image: url('assets/nyc.jpg');
-
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -17,14 +17,14 @@ body {
 }
 
 .content {
+  display: flex;
   align-self: center;
   align-items: center;
-  display: flex;
   flex-direction: column;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.33);
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.85);
   margin: 20px;
   text-align: center;
   min-height: 300px;
@@ -32,12 +32,12 @@ body {
 
 .header-text {
   font-family: Verdana, sans-serif;
-  font-size: 28px;
+  font-size: 32px;
   color: #ffffff;
 }
 
 .secondary-text {
   font-family: Verdana, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #ffffff;
 }
